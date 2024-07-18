@@ -1,0 +1,173 @@
+[ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 3; ]
+import Toybox.ActivityMonitor;
+[ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 5; ]
+class TimTamMeter_v1View extends WatchUi.View{
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_7_26_start:
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 8 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_7_26_stop:
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 12; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 19; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 23; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_start:
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 25 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 28 8 ]
+        [ "C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_start" "C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_stop" ]
+        %calories.1 = local;
+        %tmp.6 = getm $.Toybox.ActivityMonitor;
+        %tmp.7 = getv function %tmp.6 :getInfo;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getv %tmp.8 :calories;
+        %tmp.10 = 95.0;
+        %tmp.11 = div %tmp.9 %tmp.10;
+        lputv %calories.1 %tmp.11;
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 29 8 ]
+        [ "C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_start" "C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_stop" ]
+        %trunc_calories.2 = local;
+        %tmp.12 = lgetv %calories.1;
+        %tmp.13 = getv function %tmp.12 :format;
+        %tmp.14 = "%.2f";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        lputv %trunc_calories.2 %tmp.15;
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 30 8 ]
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = getv function %tmp.16 :setColor;
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_BLACK;
+        %tmp.20 = getm $.Toybox.Graphics;
+        %tmp.21 = getv %tmp.20 :COLOR_WHITE;
+        invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 31 8 ]
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_stmt:
+        %tmp.23 = lgetv %calories.1;
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_false;
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_true:
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_28_start:
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 32 12 ]
+        %tmp.26 = lgetv %dc;
+        %tmp.27 = getv function %tmp.26 :clear;
+        invoke %tmp.26 %tmp.27();
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 33 12 ]
+        %tmp.28 = lgetv %dc;
+        %tmp.29 = getv function %tmp.28 :drawText;
+        %tmp.30 = lgetv %dc;
+        %tmp.31 = getv function %tmp.30 :getWidth;
+        %tmp.32 = invoke %tmp.30 %tmp.31();
+        %tmp.33 = 0.5;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        %tmp.35 = lgetv %dc;
+        %tmp.36 = getv function %tmp.35 :getHeight;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.38 = 0.2;
+        %tmp.39 = mul %tmp.37 %tmp.38;
+        %tmp.40 = getm $.Toybox.Graphics;
+        %tmp.41 = getv %tmp.40 :FONT_SYSTEM_NUMBER_HOT;
+        %tmp.42 = lgetv %trunc_calories.2;
+        %tmp.43 = getv function %tmp.42 :toString;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv %tmp.45 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.28 %tmp.29(%tmp.34, %tmp.39, %tmp.41, %tmp.44, %tmp.46);
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 34 12 ]
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :drawText;
+        %tmp.49 = lgetv %dc;
+        %tmp.50 = getv function %tmp.49 :getWidth;
+        %tmp.51 = invoke %tmp.49 %tmp.50();
+        %tmp.52 = 0.5;
+        %tmp.53 = mul %tmp.51 %tmp.52;
+        %tmp.54 = lgetv %dc;
+        %tmp.55 = getv function %tmp.54 :getHeight;
+        %tmp.56 = invoke %tmp.54 %tmp.55();
+        %tmp.57 = 0.7;
+        %tmp.58 = mul %tmp.56 %tmp.57;
+        %tmp.59 = getm $.Toybox.Graphics;
+        %tmp.60 = getv %tmp.59 :FONT_MEDIUM;
+        %tmp.61 = "Timtams";
+        %tmp.62 = getm $.Toybox.Graphics;
+        %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.47 %tmp.48(%tmp.53, %tmp.58, %tmp.60, %tmp.61, %tmp.63);
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_28_stop:
+        goto @C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_end;
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_false:
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_37_12_start:
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 38 12 ]
+        %tmp.64 = lgetv %dc;
+        %tmp.65 = getv function %tmp.64 :clear;
+        invoke %tmp.64 %tmp.65();
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 39 12 ]
+        %tmp.66 = lgetv %dc;
+        %tmp.67 = getv function %tmp.66 :drawText;
+        %tmp.68 = lgetv %dc;
+        %tmp.69 = getv function %tmp.68 :getWidth;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        %tmp.71 = 0.5;
+        %tmp.72 = mul %tmp.70 %tmp.71;
+        %tmp.73 = lgetv %dc;
+        %tmp.74 = getv function %tmp.73 :getHeight;
+        %tmp.75 = invoke %tmp.73 %tmp.74();
+        %tmp.76 = 0.2;
+        %tmp.77 = mul %tmp.75 %tmp.76;
+        %tmp.78 = getm $.Toybox.Graphics;
+        %tmp.79 = getv %tmp.78 :FONT_SYSTEM_NUMBER_HOT;
+        %tmp.80 = "null";
+        %tmp.81 = getm $.Toybox.Graphics;
+        %tmp.82 = getv %tmp.81 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.66 %tmp.67(%tmp.72, %tmp.77, %tmp.79, %tmp.80, %tmp.82);
+[ "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc" 40 12 ]
+        %tmp.83 = lgetv %dc;
+        %tmp.84 = getv function %tmp.83 :drawText;
+        %tmp.85 = lgetv %dc;
+        %tmp.86 = getv function %tmp.85 :getWidth;
+        %tmp.87 = invoke %tmp.85 %tmp.86();
+        %tmp.88 = 0.5;
+        %tmp.89 = mul %tmp.87 %tmp.88;
+        %tmp.90 = lgetv %dc;
+        %tmp.91 = getv function %tmp.90 :getHeight;
+        %tmp.92 = invoke %tmp.90 %tmp.91();
+        %tmp.93 = 0.7;
+        %tmp.94 = mul %tmp.92 %tmp.93;
+        %tmp.95 = getm $.Toybox.Graphics;
+        %tmp.96 = getv %tmp.95 :FONT_MEDIUM;
+        %tmp.97 = "Timtams";
+        %tmp.98 = getm $.Toybox.Graphics;
+        %tmp.99 = getv %tmp.98 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.83 %tmp.84(%tmp.89, %tmp.94, %tmp.96, %tmp.97, %tmp.99);
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_37_12_stop:
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_31_8_if_end:
+C_Users_neera_Documents_GarminProjects_TimTamMeter_v1_source_TimTamMeter_v1View_mc_23_40_stop:
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 49; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\source\TimTamMeter-v1View.mc"; @line = 1; ]
+<init> {
+}
