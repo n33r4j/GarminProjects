@@ -11,6 +11,7 @@ classic Timtam - 95~98
 (:glance)
 function getCurrentTimTams() {
     var classic_timtam_kcal = 98.0;
+    // Don't forget null checks for calls like getInfo()
     var calories = ActivityMonitor.getInfo().calories / classic_timtam_kcal;
     if(calories != null) {
         var trunc_calories = calories.format("%.2f");
@@ -50,6 +51,7 @@ class TimTamMeter_v1View extends WatchUi.View {
     }
 
     // Load your resources here
+    // dc -> Device Context
     function onLayout(dc as Dc) as Void {
         //setLayout(Rez.Layouts.MainLayout(dc));
     }
