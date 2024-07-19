@@ -1,5 +1,5 @@
 # Garmin Connect IQ Apps and Widgets
-
+_Note: Currently just for FR55_
 ## Widgets
 
 ### 1. TimTam Meter
