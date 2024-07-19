@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\neera\Documents\GarminProjects\TimTamMeter-v1\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="12" parent="globals" pc="268435457" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="14" parent="globals" pc="268435469" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="16" parent="globals" pc="268435476" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="17" parent="globals" pc="268435502" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="18" parent="globals" pc="268435509" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="1" lineNum="21" parent="globals" pc="268435515" symbol="getCurrentTimTams"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="2" lineNum="48" parent="globals" pc="268435522" symbol="max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="2" lineNum="50" parent="globals" pc="268435532" symbol="max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="2" lineNum="51" parent="globals" pc="268435540" symbol="max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="2" lineNum="54" parent="globals" pc="268435546" symbol="max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="3" lineNum="5" parent="globals/TimTamMeter_v1App" pc="268435550" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="5" lineNum="20" parent="globals/TimTamMeter_v1App" pc="268435569" symbol="getInitialView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="5" lineNum="21" parent="globals/TimTamMeter_v1App" pc="268435571" symbol="getInitialView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="6" lineNum="7" parent="globals/TimTamMeter_v1App" pc="268435612" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="6" lineNum="8" parent="globals/TimTamMeter_v1App" pc="268435614" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="7" lineNum="24" parent="globals/TimTamMeter_v1App" pc="268435633" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="7" lineNum="26" parent="globals/TimTamMeter_v1App" pc="268435635" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="9" lineNum="60" parent="globals/TimeTamMeterGlanceView" pc="268435676" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="10" lineNum="62" parent="globals/TimeTamMeterGlanceView" pc="268435695" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="10" lineNum="63" parent="globals/TimeTamMeterGlanceView" pc="268435697" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="66" parent="globals/TimeTamMeterGlanceView" pc="268435716" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="67" parent="globals/TimeTamMeterGlanceView" pc="268435720" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="69" parent="globals/TimeTamMeterGlanceView" pc="268435733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="70" parent="globals/TimeTamMeterGlanceView" pc="268435740" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="71" parent="globals/TimeTamMeterGlanceView" pc="268435762" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="72" parent="globals/TimeTamMeterGlanceView" pc="268435774" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="73" parent="globals/TimeTamMeterGlanceView" pc="268435796" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="74" parent="globals/TimeTamMeterGlanceView" pc="268435857" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="11" lineNum="75" parent="globals/TimeTamMeterGlanceView" pc="268435879" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="12" lineNum="31" parent="globals" pc="268435961" symbol="getApp"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1App.mc" id="12" lineNum="32" parent="globals" pc="268435971" symbol="getApp"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\builds\\0-0-5\\gen\\006-B3869-00\\source\\Rez.mcgen" id="13" lineNum="7" parent="globals/Rez" pc="268435987" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="14" lineNum="80" parent="globals/TimTamMeter_v1View" pc="268436011" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="17" lineNum="82" parent="globals/TimTamMeter_v1View" pc="268436030" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="17" lineNum="83" parent="globals/TimTamMeter_v1View" pc="268436032" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="99" parent="globals/TimTamMeter_v1View" pc="268436051" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="101" parent="globals/TimTamMeter_v1View" pc="268436055" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="104" parent="globals/TimTamMeter_v1View" pc="268436075" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="106" parent="globals/TimTamMeter_v1View" pc="268436088" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="107" parent="globals/TimTamMeter_v1View" pc="268436101" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="109" parent="globals/TimTamMeter_v1View" pc="268436114" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="110" parent="globals/TimTamMeter_v1View" pc="268436136" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="111" parent="globals/TimTamMeter_v1View" pc="268436143" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="114" parent="globals/TimTamMeter_v1View" pc="268436155" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="115" parent="globals/TimTamMeter_v1View" pc="268436218" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="116" parent="globals/TimTamMeter_v1View" pc="268436269" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="117" parent="globals/TimTamMeter_v1View" pc="268436291" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="119" parent="globals/TimTamMeter_v1View" pc="268436334" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="120" parent="globals/TimTamMeter_v1View" pc="268436345" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="121" parent="globals/TimTamMeter_v1View" pc="268436367" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="122" parent="globals/TimTamMeter_v1View" pc="268436384" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="123" parent="globals/TimTamMeter_v1View" pc="268436466" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="129" parent="globals/TimTamMeter_v1View" pc="268436486" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="130" parent="globals/TimTamMeter_v1View" pc="268436498" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="131" parent="globals/TimTamMeter_v1View" pc="268436541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="132" parent="globals/TimTamMeter_v1View" pc="268436584" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="19" lineNum="133" parent="globals/TimTamMeter_v1View" pc="268436606" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="27" parent="globals" pc="268436650" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="28" parent="globals" pc="268436660" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="29" parent="globals" pc="268436680" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="31" parent="globals" pc="268436689" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="32" parent="globals" pc="268436714" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="34" parent="globals" pc="268436723" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="35" parent="globals" pc="268436748" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="37" parent="globals" pc="268436757" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="38" parent="globals" pc="268436782" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="40" parent="globals" pc="268436791" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="41" parent="globals" pc="268436816" symbol="getTimTamLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\source\\TimTamMeter-v1View.mc" id="20" lineNum="44" parent="globals" pc="268436825" symbol="getTimTamLevel"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\builds\\0-0-5\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268436832" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\builds\\0-0-5\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268436844" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\builds\\0-0-5\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268436949" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\TimTamMeter-v1\\builds\\0-0-5\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268437001" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="19" method="true" symbol="MainLayout"/>
+<entry id="12" method="true" symbol="getCurrentTimTams"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="20" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="10" object="true" symbol="TimTamMeter_v1View"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="16" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="14" method="true" symbol="max"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="18" symbol="id_duckling"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="11" object="true" symbol="TimeTamMeterGlanceView"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="17" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="9" object="true" symbol="TimTamMeter_v1App"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="15" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8391457" method="true" symbol="getGlanceView"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="13" method="true" symbol="getTimTamLevel"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435520" name="classic_timtam_kcal" stackId="1" startPc="268435469"/>
+<entry endPc="268435520" name="ttc" stackId="2" startPc="268435469"/>
+<entry arg="true" endPc="268435549" name="a" stackId="1" startPc="268435522"/>
+<entry arg="true" endPc="268435549" name="b" stackId="2" startPc="268435522"/>
+<entry arg="true" endPc="268435960" name="dc" stackId="1" startPc="268435716"/>
+<entry endPc="268435959" name="kcal" stackId="2" startPc="268435720"/>
+<entry arg="true" endPc="268436649" name="dc" stackId="1" startPc="268436051"/>
+<entry endPc="268436648" name="timtam_count" stackId="2" startPc="268436055"/>
+<entry endPc="268436648" name="cX" stackId="3" startPc="268436055"/>
+<entry endPc="268436648" name="cY" stackId="4" startPc="268436055"/>
+<entry arg="true" endPc="268436831" name="ttc" stackId="1" startPc="268436650"/>
+<entry arg="true" endPc="268437017" name="dc" stackId="1" startPc="268436832"/>
+<entry endPc="268437017" name="rez_cmp_local_bitmap_id_duckling" stackId="2" startPc="268436844"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="glance" class="TimTamMeter_v1App" module="globals" symbol="onStart"/>
+<annotationEntry annotation="glance" class="TimeTamMeterGlanceView" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_duckling"/>
+<annotationEntry annotation="glance" class="TimTamMeter_v1App" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="glance" class="TimTamMeter_v1App" module="globals" symbol="onStop"/>
+<annotationEntry annotation="glance" class="globals" module="" symbol="getCurrentTimTams"/>
+<annotationEntry annotation="glance" class="globals" module="" symbol="max"/>
+<annotationEntry annotation="glance" class="TimTamMeter_v1App" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="glance" class="TimeTamMeterGlanceView" module="globals" symbol="onUpdate"/>
+<annotationEntry annotation="glance" class="TimTamMeter_v1App" module="globals" symbol="getGlanceView"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TimTamMeter_v1App" offset="190" parentId="globals" symbolId="TimTamMeter_v1App" type="class"/>
+<dataEntry label="globals/TimeTamMeterGlanceView" offset="269" parentId="globals" symbolId="TimeTamMeterGlanceView" type="class"/>
+<dataEntry label="globals/Rez" offset="348" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TimTamMeter_v1View" offset="427" parentId="globals" symbolId="TimTamMeter_v1View" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="506" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="553" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="592" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="623" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="654" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="693" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435521" name="getCurrentTimTams" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435549" name="max" startPc="268435522">
+<param id="a"/>
+<param id="b"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435568" name="&lt;init&gt;" parent="TimTamMeter_v1App" startPc="268435550">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="TimTamMeter_v1App">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435611" name="getInitialView" parent="TimTamMeter_v1App" startPc="268435569">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435632" name="initialize" parent="TimTamMeter_v1App" startPc="268435612">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435675" name="getGlanceView" parent="TimTamMeter_v1App" startPc="268435633">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="TimTamMeter_v1App">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435694" name="&lt;init&gt;" parent="TimeTamMeterGlanceView" startPc="268435676">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435715" name="initialize" parent="TimeTamMeterGlanceView" startPc="268435695">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435960" name="onUpdate" parent="TimeTamMeterGlanceView" startPc="268435716">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435986" name="getApp" startPc="268435961">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436010" name="&lt;init&gt;" parent="Rez" startPc="268435987">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436029" name="&lt;init&gt;" parent="TimTamMeter_v1View" startPc="268436011">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TimTamMeter_v1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="TimTamMeter_v1View">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436050" name="initialize" parent="TimTamMeter_v1View" startPc="268436030">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TimTamMeter_v1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436649" name="onUpdate" parent="TimTamMeter_v1View" startPc="268436051">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436831" name="getTimTamLevel" startPc="268436650">
+<param id="ttc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437017" name="MainLayout" parent="Layouts" startPc="268436832">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
