@@ -26,22 +26,25 @@ function getCurrentTimTams() {
 // array threshold functions.
 function getTimTamLevel( ttc ) {
     if(ttc.toFloat() <= 0) {
-        return "meh";
+        return ":o";
     }
-    else if (ttc > 0 && ttc <= 5) {
+    else if (ttc > 0 && ttc <= 11) {
         return "connoisseur";
     }
-    else if (ttc > 5 && ttc <= 11) {
+    else if (ttc > 11 && ttc <= 25) {
         return "average";
     }
-    else if (ttc > 11 && ttc <= 22) {
+    else if (ttc > 25 && ttc <= 55) {
         return "sugar rush";
     }
-    else if (ttc > 25 && ttc <= 55) {
+    else if (ttc > 55 && ttc <= 70) {
         return "timtam fanatic";
     }
+    else if (ttc > 70 && ttc <= 85) {
+        return "timtaminator";
+    }
     else {
-        return "you need help";
+        return "yikes ( o_ O )";
     }
 }
 
@@ -100,8 +103,8 @@ class TimTamMeter_v1View extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        //var timtam_count = 140; // For tests
-        var timtam_count = getCurrentTimTams();
+        var timtam_count = 70; // For tests
+        //var timtam_count = getCurrentTimTams();
 
         var cX = dc.getWidth();
         var cY = dc.getHeight();
