@@ -1,0 +1,980 @@
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 3; ]
+import Toybox.UserProfile;
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 4; ]
+import Toybox.Math;
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 5; ]
+import Toybox.System;
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 7; glance = true; ]
+function getCurrentVO2Max() {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_8_28_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 9 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_8_28_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_8_28_stop" ]
+    %vo2max.1 = local;
+    %tmp.1 = getm $.Toybox.UserProfile;
+    %tmp.2 = getv function %tmp.1 :getProfile;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = getv %tmp.3 :vo2maxRunning;
+    lputv %vo2max.1 %tmp.4;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 10 4 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_stmt:
+    %tmp.6 = lgetv %vo2max.1;
+    %tmp.7 = null;
+    %tmp.8 = ne %tmp.6 %tmp.7;
+    bf %tmp.8 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_23_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 11 8 ]
+    %tmp.10 = lgetv %vo2max.1;
+    %tmp.11 = as %tmp.10 { (!Null) };
+    ret %tmp.11;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_23_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_false:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_13_9_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 14 8 ]
+    %tmp.12 = 0.0;
+    ret %tmp.12;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_13_9_stop:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_10_4_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_8_28_stop:
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 18; ]
+function getVO2MaxLevel(vo2max_val) {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_18_36_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 19 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_18_36_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_18_36_stop" ]
+    %vo2max_level.1 = local;
+    %tmp.1 = newa 2;
+    %tmp.2 = 0;
+    %tmp.3 = dup %tmp.1;
+    %tmp.4 = aputv %tmp.3 0 %tmp.2;
+    %tmp.5 = 0.0;
+    %tmp.6 = dup %tmp.4;
+    %tmp.7 = aputv %tmp.6 1 %tmp.5;
+    lputv %vo2max_level.1 %tmp.7;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 21 4 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_stmt:
+    %tmp.8 = lgetv %vo2max_val;
+    %tmp.9 = getv function %tmp.8 :toFloat;
+    %tmp.10 = invoke %tmp.8 %tmp.9();
+    %tmp.11 = 40;
+    %tmp.12 = lte %tmp.10 %tmp.11;
+    bf %tmp.12 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_35_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 22 8 ]
+    %tmp.13 = lgetv %vo2max_level.1;
+    %tmp.14 = 0;
+    %tmp.15 = 0;
+    aputv %tmp.13 %tmp.15 %tmp.14;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 23 8 ]
+    %tmp.16 = lgetv %vo2max_level.1;
+    %tmp.18 = lgetv %vo2max_val;
+    %tmp.19 = 40.0;
+    %tmp.20 = div %tmp.18 %tmp.19;
+    %tmp.21 = 1;
+    aputv %tmp.16 %tmp.21 %tmp.20;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_35_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_false:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 25 9 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_stmt:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_13_begin:
+    %tmp.23 = lgetv %vo2max_val;
+    %tmp.24 = 40;
+    %tmp.25 = gt %tmp.23 %tmp.24;
+    %tmp.26 = dup %tmp.25;
+    bf %tmp.26 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_32_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_32_true:
+    %tmp.28 = lgetv %vo2max_val;
+    %tmp.29 = 45;
+    %tmp.30 = lte %tmp.28 %tmp.29;
+    %tmp.31 = and %tmp.25 %tmp.30;
+    push %tmp.31;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_32_end:
+    %tmp.32 = phi [%tmp.26 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_13_begin] [%tmp.31 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_32_true] [%tmp.32 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_32_end];
+    bf %tmp.32 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_50_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 26 8 ]
+    %tmp.33 = lgetv %vo2max_level.1;
+    %tmp.34 = 1;
+    %tmp.35 = 0;
+    aputv %tmp.33 %tmp.35 %tmp.34;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 27 8 ]
+    %tmp.36 = lgetv %vo2max_level.1;
+    %tmp.38 = lgetv %vo2max_val;
+    %tmp.39 = 40.0;
+    %tmp.40 = sub %tmp.38 %tmp.39;
+    %tmp.41 = 5.0;
+    %tmp.42 = div %tmp.40 %tmp.41;
+    %tmp.43 = 1;
+    aputv %tmp.36 %tmp.43 %tmp.42;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_50_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_false:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 29 9 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_stmt:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_13_begin:
+    %tmp.45 = lgetv %vo2max_val;
+    %tmp.46 = 45;
+    %tmp.47 = gt %tmp.45 %tmp.46;
+    %tmp.48 = dup %tmp.47;
+    bf %tmp.48 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_32_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_32_true:
+    %tmp.50 = lgetv %vo2max_val;
+    %tmp.51 = 50;
+    %tmp.52 = lte %tmp.50 %tmp.51;
+    %tmp.53 = and %tmp.47 %tmp.52;
+    push %tmp.53;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_32_end:
+    %tmp.54 = phi [%tmp.48 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_13_begin] [%tmp.53 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_32_true] [%tmp.54 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_32_end];
+    bf %tmp.54 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_50_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 30 8 ]
+    %tmp.55 = lgetv %vo2max_level.1;
+    %tmp.56 = 2;
+    %tmp.57 = 0;
+    aputv %tmp.55 %tmp.57 %tmp.56;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 31 8 ]
+    %tmp.58 = lgetv %vo2max_level.1;
+    %tmp.60 = lgetv %vo2max_val;
+    %tmp.61 = 45.0;
+    %tmp.62 = sub %tmp.60 %tmp.61;
+    %tmp.63 = 5.0;
+    %tmp.64 = div %tmp.62 %tmp.63;
+    %tmp.65 = 1;
+    aputv %tmp.58 %tmp.65 %tmp.64;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_50_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_false:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 33 9 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_stmt:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_13_begin:
+    %tmp.67 = lgetv %vo2max_val;
+    %tmp.68 = 50;
+    %tmp.69 = gt %tmp.67 %tmp.68;
+    %tmp.70 = dup %tmp.69;
+    bf %tmp.70 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_32_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_32_true:
+    %tmp.72 = lgetv %vo2max_val;
+    %tmp.73 = 55;
+    %tmp.74 = lte %tmp.72 %tmp.73;
+    %tmp.75 = and %tmp.69 %tmp.74;
+    push %tmp.75;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_32_end:
+    %tmp.76 = phi [%tmp.70 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_13_begin] [%tmp.75 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_32_true] [%tmp.76 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_32_end];
+    bf %tmp.76 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_50_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 34 8 ]
+    %tmp.77 = lgetv %vo2max_level.1;
+    %tmp.78 = 3;
+    %tmp.79 = 0;
+    aputv %tmp.77 %tmp.79 %tmp.78;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 35 8 ]
+    %tmp.80 = lgetv %vo2max_level.1;
+    %tmp.82 = lgetv %vo2max_val;
+    %tmp.83 = 50.0;
+    %tmp.84 = sub %tmp.82 %tmp.83;
+    %tmp.85 = 5.0;
+    %tmp.86 = div %tmp.84 %tmp.85;
+    %tmp.87 = 1;
+    aputv %tmp.80 %tmp.87 %tmp.86;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_50_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_false:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 37 9 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_stmt:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_13_begin:
+    %tmp.89 = lgetv %vo2max_val;
+    %tmp.90 = 55;
+    %tmp.91 = gt %tmp.89 %tmp.90;
+    %tmp.92 = dup %tmp.91;
+    bf %tmp.92 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_32_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_32_true:
+    %tmp.94 = lgetv %vo2max_val;
+    %tmp.95 = 60;
+    %tmp.96 = lte %tmp.94 %tmp.95;
+    %tmp.97 = and %tmp.91 %tmp.96;
+    push %tmp.97;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_32_end:
+    %tmp.98 = phi [%tmp.92 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_13_begin] [%tmp.97 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_32_true] [%tmp.98 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_32_end];
+    bf %tmp.98 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_50_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 38 8 ]
+    %tmp.99 = lgetv %vo2max_level.1;
+    %tmp.100 = 4;
+    %tmp.101 = 0;
+    aputv %tmp.99 %tmp.101 %tmp.100;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 39 8 ]
+    %tmp.102 = lgetv %vo2max_level.1;
+    %tmp.104 = lgetv %vo2max_val;
+    %tmp.105 = 55.0;
+    %tmp.106 = sub %tmp.104 %tmp.105;
+    %tmp.107 = 5.0;
+    %tmp.108 = div %tmp.106 %tmp.107;
+    %tmp.109 = 1;
+    aputv %tmp.102 %tmp.109 %tmp.108;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_50_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_false:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 41 9 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_stmt:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_13_begin:
+    %tmp.111 = lgetv %vo2max_val;
+    %tmp.112 = 60;
+    %tmp.113 = gt %tmp.111 %tmp.112;
+    %tmp.114 = dup %tmp.113;
+    bf %tmp.114 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_32_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_32_true:
+    %tmp.116 = lgetv %vo2max_val;
+    %tmp.117 = 65;
+    %tmp.118 = lte %tmp.116 %tmp.117;
+    %tmp.119 = and %tmp.113 %tmp.118;
+    push %tmp.119;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_32_end:
+    %tmp.120 = phi [%tmp.114 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_13_begin] [%tmp.119 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_32_true] [%tmp.120 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_32_end];
+    bf %tmp.120 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_50_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 42 8 ]
+    %tmp.121 = lgetv %vo2max_level.1;
+    %tmp.122 = 5;
+    %tmp.123 = 0;
+    aputv %tmp.121 %tmp.123 %tmp.122;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 43 8 ]
+    %tmp.124 = lgetv %vo2max_level.1;
+    %tmp.126 = lgetv %vo2max_val;
+    %tmp.127 = 60.0;
+    %tmp.128 = sub %tmp.126 %tmp.127;
+    %tmp.129 = 5.0;
+    %tmp.130 = div %tmp.128 %tmp.129;
+    %tmp.131 = 1;
+    aputv %tmp.124 %tmp.131 %tmp.130;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_50_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_false:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_45_9_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 46 8 ]
+    %tmp.132 = lgetv %vo2max_level.1;
+    %tmp.133 = -1;
+    %tmp.134 = 0;
+    aputv %tmp.132 %tmp.134 %tmp.133;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 47 8 ]
+    %tmp.135 = lgetv %vo2max_level.1;
+    %tmp.136 = -1.0;
+    %tmp.137 = 1;
+    aputv %tmp.135 %tmp.137 %tmp.136;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_45_9_stop:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_41_9_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_37_9_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_33_9_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_29_9_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_25_9_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_21_4_if_end:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 49 4 ]
+    %tmp.139 = lgetv %vo2max_level.1;
+    ret %tmp.139;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_18_36_stop:
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 52; ]
+function drawRadialBars(dc as Dc, vo2max_val) {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 53 4 ]
+    %tmp.1 = getm $.Toybox.System;
+    %tmp.2 = getv function %tmp.1 :println;
+    %tmp.3 = "Drawing radial bars for VO2Max";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 54 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %cX.1 = local;
+    %tmp.4 = lgetv %dc;
+    %tmp.5 = getv function %tmp.4 :getWidth;
+    %tmp.6 = invoke %tmp.4 %tmp.5();
+    lputv %cX.1 %tmp.6;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 55 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %cY.2 = local;
+    %tmp.7 = lgetv %dc;
+    %tmp.8 = getv function %tmp.7 :getHeight;
+    %tmp.9 = invoke %tmp.7 %tmp.8();
+    lputv %cY.2 %tmp.9;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 57 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_segments.3 = local;
+    %tmp.10 = 7;
+    lputv %bar_segments.3 %tmp.10;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 58 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %color_palette.4 = local;
+    %tmp.11 = newa 6;
+    %tmp.12 = getm $.Toybox.Graphics;
+    %tmp.13 = getv %tmp.12 :COLOR_RED;
+    %tmp.14 = dup %tmp.11;
+    %tmp.15 = aputv %tmp.14 0 %tmp.13;
+    %tmp.16 = getm $.Toybox.Graphics;
+    %tmp.17 = getv %tmp.16 :COLOR_YELLOW;
+    %tmp.18 = dup %tmp.15;
+    %tmp.19 = aputv %tmp.18 1 %tmp.17;
+    %tmp.20 = getm $.Toybox.Graphics;
+    %tmp.21 = getv %tmp.20 :COLOR_GREEN;
+    %tmp.22 = dup %tmp.19;
+    %tmp.23 = aputv %tmp.22 2 %tmp.21;
+    %tmp.24 = getm $.Toybox.Graphics;
+    %tmp.25 = getv %tmp.24 :COLOR_BLUE;
+    %tmp.26 = dup %tmp.23;
+    %tmp.27 = aputv %tmp.26 3 %tmp.25;
+    %tmp.28 = getm $.Toybox.Graphics;
+    %tmp.29 = getv %tmp.28 :COLOR_PURPLE;
+    %tmp.30 = dup %tmp.27;
+    %tmp.31 = aputv %tmp.30 4 %tmp.29;
+    %tmp.32 = getm $.Toybox.Graphics;
+    %tmp.33 = getv %tmp.32 :COLOR_DK_BLUE;
+    %tmp.34 = dup %tmp.31;
+    %tmp.35 = aputv %tmp.34 5 %tmp.33;
+    lputv %color_palette.4 %tmp.35;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 65 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_thickness_default.5 = local;
+    %tmp.36 = 8.0;
+    lputv %bar_thickness_default.5 %tmp.36;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 66 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_thickness_highlighted.6 = local;
+    %tmp.37 = 16.0;
+    lputv %bar_thickness_highlighted.6 %tmp.37;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 67 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_length.7 = local;
+    %tmp.38 = 2.0;
+    %tmp.39 = getm $.Toybox.Math;
+    %tmp.40 = getv %tmp.39 :PI;
+    %tmp.41 = mul %tmp.38 %tmp.40;
+    %tmp.43 = lgetv %bar_segments.3;
+    %tmp.44 = div %tmp.41 %tmp.43;
+    lputv %bar_length.7 %tmp.44;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 68 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_length_offset.8 = local;
+    %tmp.46 = lgetv %bar_length.7;
+    %tmp.47 = 2.0;
+    %tmp.48 = div %tmp.46 %tmp.47;
+    lputv %bar_length_offset.8 %tmp.48;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 70 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %start_point.9 = local;
+    %tmp.49 = getm $.Toybox.Math;
+    %tmp.50 = getv function %tmp.49 :toRadians;
+    %tmp.51 = 0;
+    %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+    %tmp.54 = lgetv %bar_length_offset.8;
+    %tmp.55 = add %tmp.52 %tmp.54;
+    lputv %start_point.9 %tmp.55;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 71 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_start_angle.10 = local;
+    %tmp.56 = 0;
+    lputv %bar_start_angle.10 %tmp.56;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 72 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_end_angle.11 = local;
+    %tmp.57 = 0;
+    lputv %bar_end_angle.11 %tmp.57;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 73 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_radius.12 = local;
+    %tmp.59 = lgetv %cX.1;
+    %tmp.60 = 0.5;
+    %tmp.61 = mul %tmp.59 %tmp.60;
+    %tmp.63 = lgetv %bar_thickness_default.5;
+    %tmp.64 = sub %tmp.61 %tmp.63;
+    %tmp.65 = 2.0;
+    %tmp.66 = sub %tmp.64 %tmp.65;
+    lputv %bar_radius.12 %tmp.66;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 74 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_thickness.13 = local;
+    %tmp.68 = lgetv %bar_thickness_default.5;
+    lputv %bar_thickness.13 %tmp.68;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 75 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %bar_spacing.14 = local;
+    %tmp.69 = getm $.Toybox.Math;
+    %tmp.70 = getv function %tmp.69 :toRadians;
+    %tmp.71 = 4.0;
+    %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
+    lputv %bar_spacing.14 %tmp.72;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 77 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %vo2max_level.15 = local;
+    %tmp.73 = self;
+    %tmp.74 = getv function %tmp.73 :getVO2MaxLevel;
+    %tmp.76 = lgetv %vo2max_val;
+    %tmp.77 = invoke %tmp.73 %tmp.74(%tmp.76);
+    lputv %vo2max_level.15 %tmp.77;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 78 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %curr_level.16 = local;
+    %tmp.79 = lgetv %vo2max_level.15;
+    %tmp.80 = 0;
+    %tmp.81 = agetv %tmp.79 %tmp.80;
+    lputv %curr_level.16 %tmp.81;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 79 4 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop" ]
+    %perc.17 = local;
+    %tmp.83 = lgetv %vo2max_level.15;
+    %tmp.84 = 1;
+    %tmp.85 = agetv %tmp.83 %tmp.84;
+    lputv %perc.17 %tmp.85;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 81 4 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_stmt:
+    %tmp.87 = lgetv %curr_level.16;
+    %tmp.88 = 0;
+    %tmp.89 = gte %tmp.87 %tmp.88;
+    bf %tmp.89 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_false;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 82 8 ]
+    %tmp.90 = lgetv %dc;
+    %tmp.91 = getv function %tmp.90 :clear;
+    invoke %tmp.90 %tmp.91();
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 84 8 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop" ]
+    %curr_vo2max_angle.18 = local;
+    %tmp.92 = getm $.Toybox.Math;
+    %tmp.93 = getv function %tmp.92 :toRadians;
+    %tmp.94 = 90;
+    %tmp.95 = invoke %tmp.92 %tmp.93(%tmp.94);
+    %tmp.97 = lgetv %start_point.9;
+    %tmp.98 = add %tmp.95 %tmp.97;
+    %tmp.100 = lgetv %curr_level.16;
+    %tmp.102 = lgetv %bar_length.7;
+    %tmp.103 = mul %tmp.100 %tmp.102;
+    %tmp.104 = add %tmp.98 %tmp.103;
+    %tmp.105 = 0.5;
+    %tmp.107 = lgetv %bar_spacing.14;
+    %tmp.108 = mul %tmp.105 %tmp.107;
+    %tmp.109 = add %tmp.104 %tmp.108;
+    %tmp.111 = lgetv %bar_length.7;
+    %tmp.113 = lgetv %perc.17;
+    %tmp.114 = mul %tmp.111 %tmp.113;
+    %tmp.115 = add %tmp.109 %tmp.114;
+    lputv %curr_vo2max_angle.18 %tmp.115;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 85 8 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop" ]
+    %indicator_start_x.19 = local;
+    %tmp.117 = lgetv %cX.1;
+    %tmp.118 = 0.5;
+    %tmp.119 = mul %tmp.117 %tmp.118;
+    %tmp.121 = lgetv %bar_radius.12;
+    %tmp.122 = 16;
+    %tmp.123 = sub %tmp.121 %tmp.122;
+    %tmp.124 = getm $.Toybox.Math;
+    %tmp.125 = getv function %tmp.124 :cos;
+    %tmp.127 = lgetv %curr_vo2max_angle.18;
+    %tmp.128 = invoke %tmp.124 %tmp.125(%tmp.127);
+    %tmp.129 = mul %tmp.123 %tmp.128;
+    %tmp.130 = add %tmp.119 %tmp.129;
+    lputv %indicator_start_x.19 %tmp.130;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 86 8 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop" ]
+    %indicator_start_y.20 = local;
+    %tmp.132 = lgetv %cY.2;
+    %tmp.133 = 0.5;
+    %tmp.134 = mul %tmp.132 %tmp.133;
+    %tmp.136 = lgetv %bar_radius.12;
+    %tmp.137 = 16;
+    %tmp.138 = sub %tmp.136 %tmp.137;
+    %tmp.139 = getm $.Toybox.Math;
+    %tmp.140 = getv function %tmp.139 :sin;
+    %tmp.142 = lgetv %curr_vo2max_angle.18;
+    %tmp.143 = invoke %tmp.139 %tmp.140(%tmp.142);
+    %tmp.144 = mul %tmp.138 %tmp.143;
+    %tmp.145 = add %tmp.134 %tmp.144;
+    lputv %indicator_start_y.20 %tmp.145;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 87 8 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop" ]
+    %indicator_end_x.21 = local;
+    %tmp.147 = lgetv %cX.1;
+    %tmp.148 = 0.5;
+    %tmp.149 = mul %tmp.147 %tmp.148;
+    %tmp.151 = lgetv %bar_radius.12;
+    %tmp.152 = 5;
+    %tmp.153 = add %tmp.151 %tmp.152;
+    %tmp.154 = getm $.Toybox.Math;
+    %tmp.155 = getv function %tmp.154 :cos;
+    %tmp.157 = lgetv %curr_vo2max_angle.18;
+    %tmp.158 = invoke %tmp.154 %tmp.155(%tmp.157);
+    %tmp.159 = mul %tmp.153 %tmp.158;
+    %tmp.160 = add %tmp.149 %tmp.159;
+    lputv %indicator_end_x.21 %tmp.160;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 88 8 ]
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop" ]
+    %indicator_end_y.22 = local;
+    %tmp.162 = lgetv %cY.2;
+    %tmp.163 = 0.5;
+    %tmp.164 = mul %tmp.162 %tmp.163;
+    %tmp.166 = lgetv %bar_radius.12;
+    %tmp.167 = 5;
+    %tmp.168 = add %tmp.166 %tmp.167;
+    %tmp.169 = getm $.Toybox.Math;
+    %tmp.170 = getv function %tmp.169 :sin;
+    %tmp.172 = lgetv %curr_vo2max_angle.18;
+    %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+    %tmp.174 = mul %tmp.168 %tmp.173;
+    %tmp.175 = add %tmp.164 %tmp.174;
+    lputv %indicator_end_y.22 %tmp.175;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 90 8 ]
+    for @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_test @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_incr @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_init:
+    [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_begin" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_end" ]
+    %i.23 = local;
+    %tmp.176 = 0;
+    lputv %i.23 %tmp.176;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_test:
+    %tmp.178 = lgetv %i.23;
+    %tmp.180 = lgetv %bar_segments.3;
+    %tmp.181 = 1;
+    %tmp.182 = sub %tmp.180 %tmp.181;
+    %tmp.183 = lt %tmp.178 %tmp.182;
+    bf %tmp.183 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_begin:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_48_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 91 12 ]
+    %tmp.185 = lgetv %start_point.9;
+    %tmp.187 = lgetv %i.23;
+    %tmp.189 = lgetv %bar_length.7;
+    %tmp.190 = mul %tmp.187 %tmp.189;
+    %tmp.191 = add %tmp.185 %tmp.190;
+    %tmp.192 = 0.5;
+    %tmp.194 = lgetv %bar_spacing.14;
+    %tmp.195 = mul %tmp.192 %tmp.194;
+    %tmp.196 = add %tmp.191 %tmp.195;
+    lputv %bar_start_angle.10 %tmp.196;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 92 12 ]
+    %tmp.198 = lgetv %bar_start_angle.10;
+    %tmp.200 = lgetv %bar_length.7;
+    %tmp.201 = add %tmp.198 %tmp.200;
+    %tmp.202 = 0.5;
+    %tmp.204 = lgetv %bar_spacing.14;
+    %tmp.205 = mul %tmp.202 %tmp.204;
+    %tmp.206 = sub %tmp.201 %tmp.205;
+    lputv %bar_end_angle.11 %tmp.206;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 94 12 ]
+    %tmp.208 = lgetv %bar_thickness_default.5;
+    lputv %bar_thickness.13 %tmp.208;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 95 12 ]
+    %tmp.210 = lgetv %cX.1;
+    %tmp.211 = 0.5;
+    %tmp.212 = mul %tmp.210 %tmp.211;
+    %tmp.214 = lgetv %bar_thickness.13;
+    %tmp.215 = sub %tmp.212 %tmp.214;
+    %tmp.216 = 2.0;
+    %tmp.217 = sub %tmp.215 %tmp.216;
+    lputv %bar_radius.12 %tmp.217;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 97 12 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_12_if_stmt:
+    %tmp.219 = lgetv %i.23;
+    %tmp.221 = lgetv %curr_level.16;
+    %tmp.222 = eq %tmp.219 %tmp.221;
+    bf %tmp.222 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_12_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_12_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_32_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 98 16 ]
+    %tmp.224 = lgetv %bar_thickness_highlighted.6;
+    lputv %bar_thickness.13 %tmp.224;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 99 16 ]
+    %tmp.226 = lgetv %cX.1;
+    %tmp.227 = 0.5;
+    %tmp.228 = mul %tmp.226 %tmp.227;
+    %tmp.229 = 0.8;
+    %tmp.231 = lgetv %bar_thickness.13;
+    %tmp.232 = mul %tmp.229 %tmp.231;
+    %tmp.233 = sub %tmp.228 %tmp.232;
+    lputv %bar_radius.12 %tmp.233;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_32_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_12_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_97_12_if_end:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 102 12 ]
+    %tmp.234 = lgetv %dc;
+    %tmp.235 = getv function %tmp.234 :setColor;
+    %tmp.237 = lgetv %color_palette.4;
+    %tmp.239 = lgetv %i.23;
+    %tmp.240 = agetv %tmp.237 %tmp.239;
+    %tmp.241 = getm $.Toybox.Graphics;
+    %tmp.242 = getv %tmp.241 :COLOR_TRANSPARENT;
+    invoke %tmp.234 %tmp.235(%tmp.240, %tmp.242);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 103 12 ]
+    %tmp.243 = lgetv %dc;
+    %tmp.244 = getv function %tmp.243 :setPenWidth;
+    %tmp.246 = lgetv %bar_thickness.13;
+    invoke %tmp.243 %tmp.244(%tmp.246);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 104 12 ]
+    %tmp.247 = lgetv %dc;
+    %tmp.248 = getv function %tmp.247 :drawArc;
+    %tmp.250 = lgetv %cX.1;
+    %tmp.251 = 0.5;
+    %tmp.252 = mul %tmp.250 %tmp.251;
+    %tmp.254 = lgetv %cY.2;
+    %tmp.255 = 0.5;
+    %tmp.256 = mul %tmp.254 %tmp.255;
+    %tmp.258 = lgetv %bar_radius.12;
+    %tmp.259 = getm $.Toybox.Graphics;
+    %tmp.260 = getv %tmp.259 :ARC_CLOCKWISE;
+    %tmp.261 = 270;
+    %tmp.262 = getm $.Toybox.Math;
+    %tmp.263 = getv function %tmp.262 :toDegrees;
+    %tmp.265 = lgetv %bar_start_angle.10;
+    %tmp.266 = invoke %tmp.262 %tmp.263(%tmp.265);
+    %tmp.267 = sub %tmp.261 %tmp.266;
+    %tmp.268 = 270;
+    %tmp.269 = getm $.Toybox.Math;
+    %tmp.270 = getv function %tmp.269 :toDegrees;
+    %tmp.272 = lgetv %bar_end_angle.11;
+    %tmp.273 = invoke %tmp.269 %tmp.270(%tmp.272);
+    %tmp.274 = sub %tmp.268 %tmp.273;
+    invoke %tmp.247 %tmp.248(%tmp.252, %tmp.256, %tmp.258, %tmp.260, %tmp.267, %tmp.274);
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_48_stop:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_incr:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 90 ]
+    %tmp.277 = lgetv %i.23;
+    %tmp.278 = add %tmp.277 1;
+    lputv %i.23 %tmp.278;
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_test;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_90_8_for_end:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 113 8 ]
+    %tmp.279 = lgetv %dc;
+    %tmp.280 = getv function %tmp.279 :setColor;
+    %tmp.281 = getm $.Toybox.Graphics;
+    %tmp.282 = getv %tmp.281 :COLOR_BLACK;
+    %tmp.283 = getm $.Toybox.Graphics;
+    %tmp.284 = getv %tmp.283 :COLOR_TRANSPARENT;
+    invoke %tmp.279 %tmp.280(%tmp.282, %tmp.284);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 114 8 ]
+    %tmp.285 = lgetv %dc;
+    %tmp.286 = getv function %tmp.285 :setPenWidth;
+    %tmp.287 = 4.0;
+    invoke %tmp.285 %tmp.286(%tmp.287);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 115 8 ]
+    %tmp.288 = lgetv %dc;
+    %tmp.289 = getv function %tmp.288 :drawLine;
+    %tmp.291 = lgetv %indicator_start_x.19;
+    %tmp.293 = lgetv %indicator_start_y.20;
+    %tmp.295 = lgetv %indicator_end_x.21;
+    %tmp.297 = lgetv %indicator_end_y.22;
+    invoke %tmp.288 %tmp.289(%tmp.291, %tmp.293, %tmp.295, %tmp.297);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 117 8 ]
+    %tmp.298 = lgetv %dc;
+    %tmp.299 = getv function %tmp.298 :setColor;
+    %tmp.300 = getm $.Toybox.Graphics;
+    %tmp.301 = getv %tmp.300 :COLOR_WHITE;
+    %tmp.302 = getm $.Toybox.Graphics;
+    %tmp.303 = getv %tmp.302 :COLOR_TRANSPARENT;
+    invoke %tmp.298 %tmp.299(%tmp.301, %tmp.303);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 118 8 ]
+    %tmp.304 = lgetv %dc;
+    %tmp.305 = getv function %tmp.304 :setPenWidth;
+    %tmp.306 = 2.0;
+    invoke %tmp.304 %tmp.305(%tmp.306);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 119 8 ]
+    %tmp.307 = lgetv %dc;
+    %tmp.308 = getv function %tmp.307 :drawLine;
+    %tmp.310 = lgetv %indicator_start_x.19;
+    %tmp.312 = lgetv %indicator_start_y.20;
+    %tmp.314 = lgetv %indicator_end_x.21;
+    %tmp.316 = lgetv %indicator_end_y.22;
+    invoke %tmp.307 %tmp.308(%tmp.310, %tmp.312, %tmp.314, %tmp.316);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 120 8 ]
+    %tmp.317 = lgetv %dc;
+    %tmp.318 = getv function %tmp.317 :setPenWidth;
+    %tmp.319 = 1.0;
+    invoke %tmp.317 %tmp.318(%tmp.319);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 123 8 ]
+    %tmp.320 = lgetv %dc;
+    %tmp.321 = getv function %tmp.320 :setColor;
+    %tmp.322 = getm $.Toybox.Graphics;
+    %tmp.323 = getv %tmp.322 :COLOR_WHITE;
+    %tmp.324 = getm $.Toybox.Graphics;
+    %tmp.325 = getv %tmp.324 :COLOR_TRANSPARENT;
+    invoke %tmp.320 %tmp.321(%tmp.323, %tmp.325);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 124 8 ]
+    %tmp.326 = lgetv %dc;
+    %tmp.327 = getv function %tmp.326 :drawText;
+    %tmp.329 = lgetv %cX.1;
+    %tmp.330 = 0.5;
+    %tmp.331 = mul %tmp.329 %tmp.330;
+    %tmp.333 = lgetv %cY.2;
+    %tmp.334 = 0.2;
+    %tmp.335 = mul %tmp.333 %tmp.334;
+    %tmp.336 = getm $.Toybox.Graphics;
+    %tmp.337 = getv %tmp.336 :FONT_SYSTEM_TINY;
+    %tmp.338 = "VO2 Max.";
+    %tmp.339 = getm $.Toybox.Graphics;
+    %tmp.340 = getv %tmp.339 :TEXT_JUSTIFY_CENTER;
+    invoke %tmp.326 %tmp.327(%tmp.331, %tmp.335, %tmp.337, %tmp.338, %tmp.340);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 125 8 ]
+    %tmp.341 = lgetv %dc;
+    %tmp.342 = getv function %tmp.341 :drawText;
+    %tmp.344 = lgetv %cX.1;
+    %tmp.345 = 0.5;
+    %tmp.346 = mul %tmp.344 %tmp.345;
+    %tmp.348 = lgetv %cY.2;
+    %tmp.349 = 0.3;
+    %tmp.350 = mul %tmp.348 %tmp.349;
+    %tmp.351 = getm $.Toybox.Graphics;
+    %tmp.352 = getv %tmp.351 :FONT_NUMBER_MEDIUM;
+    %tmp.353 = lgetv %vo2max_val;
+    %tmp.354 = getv function %tmp.353 :format;
+    %tmp.355 = "%.0f";
+    %tmp.356 = invoke %tmp.353 %tmp.354(%tmp.355);
+    %tmp.357 = getv function %tmp.356 :toString;
+    %tmp.358 = invoke %tmp.356 %tmp.357();
+    %tmp.359 = getm $.Toybox.Graphics;
+    %tmp.360 = getv %tmp.359 :TEXT_JUSTIFY_CENTER;
+    invoke %tmp.341 %tmp.342(%tmp.346, %tmp.350, %tmp.352, %tmp.358, %tmp.360);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 126 8 ]
+    %tmp.361 = lgetv %dc;
+    %tmp.362 = getv function %tmp.361 :setColor;
+    %tmp.363 = getm $.Toybox.Graphics;
+    %tmp.364 = getv %tmp.363 :COLOR_BLUE;
+    %tmp.365 = getm $.Toybox.Graphics;
+    %tmp.366 = getv %tmp.365 :COLOR_TRANSPARENT;
+    invoke %tmp.361 %tmp.362(%tmp.364, %tmp.366);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 127 8 ]
+    %tmp.367 = lgetv %dc;
+    %tmp.368 = getv function %tmp.367 :drawText;
+    %tmp.370 = lgetv %cX.1;
+    %tmp.371 = 0.5;
+    %tmp.372 = mul %tmp.370 %tmp.371;
+    %tmp.374 = lgetv %cY.2;
+    %tmp.375 = 0.7;
+    %tmp.376 = mul %tmp.374 %tmp.375;
+    %tmp.377 = getm $.Toybox.Graphics;
+    %tmp.378 = getv %tmp.377 :FONT_GLANCE;
+    %tmp.379 = "date";
+    %tmp.380 = getm $.Toybox.Graphics;
+    %tmp.381 = getv %tmp.380 :TEXT_JUSTIFY_CENTER;
+    invoke %tmp.367 %tmp.368(%tmp.372, %tmp.376, %tmp.378, %tmp.379, %tmp.381);
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_24_stop:
+    goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_false:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_129_9_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 130 8 ]
+    %tmp.382 = lgetv %dc;
+    %tmp.383 = getv function %tmp.382 :clear;
+    invoke %tmp.382 %tmp.383();
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 131 8 ]
+    %tmp.384 = lgetv %dc;
+    %tmp.385 = getv function %tmp.384 :setColor;
+    %tmp.386 = getm $.Toybox.Graphics;
+    %tmp.387 = getv %tmp.386 :COLOR_WHITE;
+    %tmp.388 = getm $.Toybox.Graphics;
+    %tmp.389 = getv %tmp.388 :COLOR_BLACK;
+    invoke %tmp.384 %tmp.385(%tmp.387, %tmp.389);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 132 8 ]
+    %tmp.390 = lgetv %dc;
+    %tmp.391 = getv function %tmp.390 :drawText;
+    %tmp.393 = lgetv %cX.1;
+    %tmp.394 = 0.5;
+    %tmp.395 = mul %tmp.393 %tmp.394;
+    %tmp.397 = lgetv %cY.2;
+    %tmp.398 = 0.2;
+    %tmp.399 = mul %tmp.397 %tmp.398;
+    %tmp.400 = getm $.Toybox.Graphics;
+    %tmp.401 = getv %tmp.400 :FONT_SYSTEM_TINY;
+    %tmp.402 = "VO2 Max.";
+    %tmp.403 = getm $.Toybox.Graphics;
+    %tmp.404 = getv %tmp.403 :TEXT_JUSTIFY_CENTER;
+    invoke %tmp.390 %tmp.391(%tmp.395, %tmp.399, %tmp.401, %tmp.402, %tmp.404);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 133 8 ]
+    %tmp.405 = lgetv %dc;
+    %tmp.406 = getv function %tmp.405 :drawText;
+    %tmp.408 = lgetv %cX.1;
+    %tmp.409 = 0.5;
+    %tmp.410 = mul %tmp.408 %tmp.409;
+    %tmp.412 = lgetv %cY.2;
+    %tmp.413 = 0.4;
+    %tmp.414 = mul %tmp.412 %tmp.413;
+    %tmp.415 = getm $.Toybox.Graphics;
+    %tmp.416 = getv %tmp.415 :FONT_SYSTEM_TINY;
+    %tmp.417 = "No Data";
+    %tmp.418 = getm $.Toybox.Graphics;
+    %tmp.419 = getv %tmp.418 :TEXT_JUSTIFY_CENTER;
+    invoke %tmp.405 %tmp.406(%tmp.410, %tmp.414, %tmp.416, %tmp.417, %tmp.419);
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_129_9_stop:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_81_4_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_52_46_stop:
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 137; glance = true; ]
+class VO2MaxMeterExtended_v1GlanceView extends WatchUi.GlanceView{
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 138; ]
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 138; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 140; ]
+    function initialize() as Void {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_140_26_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 141 8 ]
+        %tmp.2 = getv ? :GlanceView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_140_26_stop:
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 145; ]
+    function onUpdate(dc) {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_145_25_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 146 8 ]
+        [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_145_25_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_145_25_stop" ]
+        %vo2max.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getCurrentVO2Max;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %vo2max.1 %tmp.3;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 148 8 ]
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_8_if_stmt:
+        %tmp.5 = lgetv %vo2max.1;
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_8_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_8_if_true:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_27_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 149 12 ]
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = getv function %tmp.8 :setColor;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_RED;
+        %tmp.12 = getm $.Toybox.Graphics;
+        %tmp.13 = getv %tmp.12 :COLOR_BLACK;
+        invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 150 12 ]
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :clear;
+        invoke %tmp.14 %tmp.15();
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 151 12 ]
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = getv function %tmp.16 :setColor;
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_BLUE;
+        %tmp.20 = getm $.Toybox.Graphics;
+        %tmp.21 = getv %tmp.20 :COLOR_BLACK;
+        invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 152 12 ]
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :drawText;
+        %tmp.24 = lgetv %dc;
+        %tmp.25 = getv function %tmp.24 :getWidth;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = 0.45;
+        %tmp.28 = mul %tmp.26 %tmp.27;
+        %tmp.29 = lgetv %dc;
+        %tmp.30 = getv function %tmp.29 :getHeight;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        %tmp.32 = 0.2;
+        %tmp.33 = mul %tmp.31 %tmp.32;
+        %tmp.34 = getm $.Toybox.Graphics;
+        %tmp.35 = getv %tmp.34 :FONT_GLANCE;
+        %tmp.36 = "VO2Max Extended";
+        %tmp.37 = getm $.Toybox.Graphics;
+        %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.22 %tmp.23(%tmp.28, %tmp.33, %tmp.35, %tmp.36, %tmp.38);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 153 12 ]
+        %tmp.39 = lgetv %dc;
+        %tmp.40 = getv function %tmp.39 :setColor;
+        %tmp.41 = getm $.Toybox.Graphics;
+        %tmp.42 = getv %tmp.41 :COLOR_WHITE;
+        %tmp.43 = getm $.Toybox.Graphics;
+        %tmp.44 = getv %tmp.43 :COLOR_BLACK;
+        invoke %tmp.39 %tmp.40(%tmp.42, %tmp.44);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 154 12 ]
+        %tmp.45 = lgetv %dc;
+        %tmp.46 = getv function %tmp.45 :drawText;
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :getWidth;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.50 = 0.75;
+        %tmp.51 = mul %tmp.49 %tmp.50;
+        %tmp.52 = lgetv %dc;
+        %tmp.53 = getv function %tmp.52 :getHeight;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        %tmp.55 = 0.5;
+        %tmp.56 = mul %tmp.54 %tmp.55;
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :FONT_GLANCE_NUMBER;
+        %tmp.59 = lgetv %vo2max.1;
+        %tmp.60 = as %tmp.59 { (!Null) };
+        %tmp.61 = getv function %tmp.60 :format;
+        %tmp.62 = "%.1f";
+        %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
+        %tmp.64 = getv function %tmp.63 :toString;
+        %tmp.65 = invoke %tmp.63 %tmp.64();
+        %tmp.66 = getm $.Toybox.Graphics;
+        %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.45 %tmp.46(%tmp.51, %tmp.56, %tmp.58, %tmp.65, %tmp.67);
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_27_stop:
+        goto @C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_8_if_end;
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_148_8_if_end:
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_145_25_stop:
+    }
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 159; ]
+class VO2MaxMeterExtended_v1View extends WatchUi.View{
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 159; ]
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 159; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 161; ]
+    function initialize() as Void {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_161_26_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 162 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_161_26_stop:
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 166; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 173; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 177; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_177_40_start:
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 179 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 188 8 ]
+        [ "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_177_40_start" "C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_177_40_stop" ]
+        %vo2max.1 = local;
+        %tmp.6 = 65.0;
+        lputv %vo2max.1 %tmp.6;
+[ "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc" 189 8 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :drawRadialBars;
+        %tmp.10 = lgetv %dc;
+        %tmp.12 = lgetv %vo2max.1;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+C_Users_neera_Documents_GarminProjects_VO2MaxMeterExtended_v1_source_VO2MaxMeterExtended_v1View_mc_177_40_stop:
+    }
+    [ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 195; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\source\VO2MaxMeterExtended-v1View.mc"; @line = 1; ]
+<init> {
+}
