@@ -3,6 +3,7 @@ import Toybox.WatchUi;
 import Toybox.UserProfile;
 import Toybox.Math;
 import Toybox.System;
+import Toybox.Lang;
 
 (:glance)
 function getCurrentVO2Max() {
@@ -15,32 +16,39 @@ function getCurrentVO2Max() {
     }
 }
 
-function getVO2MaxLevel(vo2max_val) {
-    var vo2max_level = [0, 0.0];
+(:glance)
+function getVO2MaxLevel(vo2max_val) as Array<String or Number> {
+    var vo2max_level = [0, 0.0, "undefined"];
 
     if(vo2max_val.toFloat() <= 40) {
         vo2max_level[0] = 0;
         vo2max_level[1] = vo2max_val/40.0;
+        vo2max_level[2] = "Poor";
     }
     else if (vo2max_val > 40 && vo2max_val <= 45) {
         vo2max_level[0] = 1;
         vo2max_level[1] = (vo2max_val-40.0)/5.0;
+        vo2max_level[2] = "Fair";
     }
     else if (vo2max_val > 45 && vo2max_val <= 50) {
         vo2max_level[0] = 2;
         vo2max_level[1] = (vo2max_val-45.0)/5.0;
+        vo2max_level[2] = "Good";
     }
     else if (vo2max_val > 50 && vo2max_val <= 55) {
         vo2max_level[0] = 3;
         vo2max_level[1] = (vo2max_val-50.0)/5.0;
+        vo2max_level[2] = "Excellent";
     }
     else if (vo2max_val > 55 && vo2max_val <= 60) {
         vo2max_level[0] = 4;
         vo2max_level[1] = (vo2max_val-55.0)/5.0;
+        vo2max_level[2] = "Superior";
     }
     else if (vo2max_val > 60 && vo2max_val <= 65) {
         vo2max_level[0] = 5;
         vo2max_level[1] = (vo2max_val-60.0)/5.0;
+        vo2max_level[2] = "Sub-Elite";
     }
     else {
         vo2max_level[0] = -1; // Out of bounds
@@ -50,7 +58,7 @@ function getVO2MaxLevel(vo2max_val) {
 }
 
 function drawRadialBars(dc as Dc, vo2max_val) {
-    System.println("Drawing radial bars for VO2Max");
+    // System.println("Drawing radial bars for VO2Max");
     var cX = dc.getWidth();
     var cY = dc.getHeight();
 
@@ -77,6 +85,7 @@ function drawRadialBars(dc as Dc, vo2max_val) {
     var vo2max_level = getVO2MaxLevel(vo2max_val);
     var curr_level = vo2max_level[0];
     var perc = vo2max_level[1];
+    var curr_level_name = vo2max_level[2];
 
     if (curr_level >= 0){
         dc.clear();
@@ -123,8 +132,8 @@ function drawRadialBars(dc as Dc, vo2max_val) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cX * 0.5, cY * 0.2, Graphics.FONT_SYSTEM_TINY, "VO2 Max.", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(cX * 0.5, cY * 0.3, Graphics.FONT_NUMBER_MEDIUM, vo2max_val.format("%.0f").toString(), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(cX * 0.5, cY * 0.7, Graphics.FONT_GLANCE, "date", Graphics.TEXT_JUSTIFY_CENTER);
+        // dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(cX * 0.5, cY * 0.7, Graphics.FONT_GLANCE, curr_level_name, Graphics.TEXT_JUSTIFY_CENTER);
     }
     else {
         dc.clear();
@@ -144,14 +153,57 @@ class VO2MaxMeterExtended_v1GlanceView extends WatchUi.GlanceView {
     // Update the view
     function onUpdate(dc){
         var vo2max = getCurrentVO2Max();
+        // var vo2max = 64;
+        var vo2max_level = getVO2MaxLevel(vo2max);
+        var curr_level = vo2max_level[0];
+        var perc = vo2max_level[1];
+        var curr_level_name = vo2max_level[2];
+
+        var w = dc.getWidth();
+        var h = dc.getHeight();
+        var segments = 6;
+        var bar_thickness_default = 8.0;
+        var bar_thickness_highlight = 16.0;
+        var bar_spacing = 2.0;
+        var bar_length = 24;
+        var bar_height = bar_thickness_default;
+
+        var color_palette = [Graphics.COLOR_RED, 
+                         Graphics.COLOR_YELLOW, 
+                         Graphics.COLOR_GREEN, 
+                         Graphics.COLOR_BLUE, 
+                         Graphics.COLOR_PURPLE,
+                         Graphics.COLOR_DK_BLUE];
 
         if(vo2max != null) {
-            dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
             dc.clear();
-            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
-            dc.drawText(dc.getWidth() * 0.45, dc.getHeight() * 0.2, Graphics.FONT_GLANCE, "VO2Max Extended", Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-            dc.drawText(dc.getWidth() * 0.75, dc.getHeight() * 0.5, Graphics.FONT_GLANCE_NUMBER, vo2max.format("%.1f").toString(), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(w * 0.0, h * 0.2, Graphics.FONT_GLANCE, curr_level_name, Graphics.TEXT_JUSTIFY_LEFT);
+            // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+            dc.drawText(w * 0.75, h * 0.2, Graphics.FONT_GLANCE_NUMBER, vo2max.format("%.1f").toString(), Graphics.TEXT_JUSTIFY_CENTER);
+
+            // dc.setPenWidth(4.0);
+
+            for(var i=0; i < segments; i++){
+                var start_point = i*bar_length;
+                if(i == curr_level) {
+                    bar_height = bar_thickness_highlight;
+                }
+                else {
+                    bar_height = bar_thickness_default;
+                }
+
+                dc.setColor(color_palette[i], Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle(start_point, (h * 0.7) - (bar_height * 0.5), bar_length-bar_spacing, bar_height);
+            }
+
+            // Indicator
+            // dc.setFill(Graphics.COLOR_WHITE);
+            dc.setPenWidth(2.0);
+            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+            dc.drawRectangle((curr_level*bar_length)+(perc * bar_length), (h * 0.7) - (bar_thickness_highlight * 0.75), 5.0, 24.0);
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+            dc.fillRectangle((curr_level*bar_length)+(perc * bar_length), (h * 0.7) - (bar_thickness_highlight * 0.75), 4.0, 24.0);
         }
     }
 }

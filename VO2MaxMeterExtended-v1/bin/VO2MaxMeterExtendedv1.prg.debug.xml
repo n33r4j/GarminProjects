@@ -2,123 +2,151 @@
 <debugInfo>
 <manifest filename="C:\Users\neera\Documents\GarminProjects\VO2MaxMeterExtended-v1\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="7" parent="globals" pc="268435460" symbol="getCurrentVO2Max"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="9" parent="globals" pc="268435472" symbol="getCurrentVO2Max"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="10" parent="globals" pc="268435495" symbol="getCurrentVO2Max"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="11" parent="globals" pc="268435502" symbol="getCurrentVO2Max"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="14" parent="globals" pc="268435508" symbol="getCurrentVO2Max"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="2" lineNum="5" parent="globals/VO2MaxMeterExtended_v1App" pc="268435515" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="3" lineNum="12" parent="globals/VO2MaxMeterExtended_v1App" pc="268435534" symbol="onStart"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="4" lineNum="20" parent="globals/VO2MaxMeterExtended_v1App" pc="268435537" symbol="getInitialView"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="4" lineNum="21" parent="globals/VO2MaxMeterExtended_v1App" pc="268435539" symbol="getInitialView"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="5" lineNum="7" parent="globals/VO2MaxMeterExtended_v1App" pc="268435580" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="5" lineNum="8" parent="globals/VO2MaxMeterExtended_v1App" pc="268435582" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="6" lineNum="24" parent="globals/VO2MaxMeterExtended_v1App" pc="268435601" symbol="getGlanceView"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="6" lineNum="26" parent="globals/VO2MaxMeterExtended_v1App" pc="268435603" symbol="getGlanceView"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="7" lineNum="16" parent="globals/VO2MaxMeterExtended_v1App" pc="268435644" symbol="onStop"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="8" lineNum="138" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435647" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="9" lineNum="140" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435666" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="9" lineNum="141" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435668" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="145" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435687" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="146" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435691" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="148" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435704" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="149" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435711" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="150" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435733" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="151" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435745" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="152" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435767" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="153" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435828" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="154" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268435850" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="18" parent="globals" pc="268435935" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="19" parent="globals" pc="268435947" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="21" parent="globals" pc="268435981" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="22" parent="globals" pc="268436001" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="23" parent="globals" pc="268436014" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="25" parent="globals" pc="268436033" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="26" parent="globals" pc="268436058" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="27" parent="globals" pc="268436071" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="29" parent="globals" pc="268436096" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="30" parent="globals" pc="268436121" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="31" parent="globals" pc="268436134" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="33" parent="globals" pc="268436159" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="34" parent="globals" pc="268436184" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="35" parent="globals" pc="268436197" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="37" parent="globals" pc="268436222" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="38" parent="globals" pc="268436247" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="39" parent="globals" pc="268436260" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="41" parent="globals" pc="268436285" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="42" parent="globals" pc="268436310" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="43" parent="globals" pc="268436323" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="46" parent="globals" pc="268436348" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="47" parent="globals" pc="268436361" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="49" parent="globals" pc="268436374" symbol="getVO2MaxLevel"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="12" lineNum="31" parent="globals" pc="268436377" symbol="getApp"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="12" lineNum="32" parent="globals" pc="268436387" symbol="getApp"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="13" lineNum="159" parent="globals/VO2MaxMeterExtended_v1View" pc="268436403" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="15" lineNum="166" parent="globals/VO2MaxMeterExtended_v1View" pc="268436422" symbol="onLayout"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="16" lineNum="161" parent="globals/VO2MaxMeterExtended_v1View" pc="268436425" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="16" lineNum="162" parent="globals/VO2MaxMeterExtended_v1View" pc="268436427" symbol="initialize"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="177" parent="globals/VO2MaxMeterExtended_v1View" pc="268436446" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="179" parent="globals/VO2MaxMeterExtended_v1View" pc="268436450" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="188" parent="globals/VO2MaxMeterExtended_v1View" pc="268436470" symbol="onUpdate"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="189" parent="globals/VO2MaxMeterExtended_v1View" pc="268436477" symbol="onUpdate"/>
-<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="19" lineNum="7" parent="globals/Rez" pc="268436494" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="52" parent="globals" pc="268436518" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="53" parent="globals" pc="268436530" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="54" parent="globals" pc="268436551" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="55" parent="globals" pc="268436564" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="57" parent="globals" pc="268436577" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="58" parent="globals" pc="268436584" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="65" parent="globals" pc="268436670" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="66" parent="globals" pc="268436677" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="67" parent="globals" pc="268436684" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="68" parent="globals" pc="268436694" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="70" parent="globals" pc="268436704" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="71" parent="globals" pc="268436729" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="72" parent="globals" pc="268436736" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="73" parent="globals" pc="268436743" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="74" parent="globals" pc="268436762" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="75" parent="globals" pc="268436766" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="77" parent="globals" pc="268436788" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="78" parent="globals" pc="268436803" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="79" parent="globals" pc="268436813" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="81" parent="globals" pc="268436823" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="82" parent="globals" pc="268436834" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="84" parent="globals" pc="268436846" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="85" parent="globals" pc="268436892" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="86" parent="globals" pc="268436929" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="87" parent="globals" pc="268436966" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="88" parent="globals" pc="268437003" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="90" parent="globals" pc="268437040" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="91" parent="globals" pc="268437061" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="92" parent="globals" pc="268437080" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="94" parent="globals" pc="268437096" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="95" parent="globals" pc="268437100" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="97" parent="globals" pc="268437119" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="98" parent="globals" pc="268437127" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="99" parent="globals" pc="268437131" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="102" parent="globals" pc="268437153" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="103" parent="globals" pc="268437175" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="104" parent="globals" pc="268437189" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="113" parent="globals" pc="268437283" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="114" parent="globals" pc="268437305" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="115" parent="globals" pc="268437322" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="117" parent="globals" pc="268437342" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="118" parent="globals" pc="268437364" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="119" parent="globals" pc="268437381" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="120" parent="globals" pc="268437401" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="123" parent="globals" pc="268437418" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="124" parent="globals" pc="268437440" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="125" parent="globals" pc="268437483" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="126" parent="globals" pc="268437546" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="127" parent="globals" pc="268437568" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="130" parent="globals" pc="268437614" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="131" parent="globals" pc="268437626" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="132" parent="globals" pc="268437648" symbol="drawRadialBars"/>
-<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="133" parent="globals" pc="268437691" symbol="drawRadialBars"/>
-<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268437735" symbol="MainLayout"/>
-<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268437747" symbol="MainLayout"/>
-<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268437852" symbol="MainLayout"/>
-<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268437904" symbol="MainLayout"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="19" parent="globals" pc="268435460" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="21" parent="globals" pc="268435472" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="23" parent="globals" pc="268435519" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="24" parent="globals" pc="268435539" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="25" parent="globals" pc="268435552" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="26" parent="globals" pc="268435568" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="28" parent="globals" pc="268435584" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="29" parent="globals" pc="268435609" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="30" parent="globals" pc="268435622" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="31" parent="globals" pc="268435644" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="33" parent="globals" pc="268435660" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="34" parent="globals" pc="268435685" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="35" parent="globals" pc="268435698" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="36" parent="globals" pc="268435720" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="38" parent="globals" pc="268435736" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="39" parent="globals" pc="268435761" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="40" parent="globals" pc="268435774" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="41" parent="globals" pc="268435796" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="43" parent="globals" pc="268435812" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="44" parent="globals" pc="268435837" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="45" parent="globals" pc="268435850" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="46" parent="globals" pc="268435872" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="48" parent="globals" pc="268435888" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="49" parent="globals" pc="268435913" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="50" parent="globals" pc="268435926" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="51" parent="globals" pc="268435948" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="54" parent="globals" pc="268435964" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="55" parent="globals" pc="268435977" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="1" lineNum="57" parent="globals" pc="268435990" symbol="getVO2MaxLevel"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="2" lineNum="8" parent="globals" pc="268435993" symbol="getCurrentVO2Max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="2" lineNum="10" parent="globals" pc="268436005" symbol="getCurrentVO2Max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="2" lineNum="11" parent="globals" pc="268436028" symbol="getCurrentVO2Max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="2" lineNum="12" parent="globals" pc="268436035" symbol="getCurrentVO2Max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="2" lineNum="15" parent="globals" pc="268436041" symbol="getCurrentVO2Max"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="3" lineNum="5" parent="globals/VO2MaxMeterExtended_v1App" pc="268436048" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="4" lineNum="12" parent="globals/VO2MaxMeterExtended_v1App" pc="268436067" symbol="onStart"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="5" lineNum="20" parent="globals/VO2MaxMeterExtended_v1App" pc="268436070" symbol="getInitialView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="5" lineNum="21" parent="globals/VO2MaxMeterExtended_v1App" pc="268436072" symbol="getInitialView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="6" lineNum="7" parent="globals/VO2MaxMeterExtended_v1App" pc="268436113" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="6" lineNum="8" parent="globals/VO2MaxMeterExtended_v1App" pc="268436115" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="7" lineNum="24" parent="globals/VO2MaxMeterExtended_v1App" pc="268436134" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="7" lineNum="26" parent="globals/VO2MaxMeterExtended_v1App" pc="268436136" symbol="getGlanceView"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="8" lineNum="16" parent="globals/VO2MaxMeterExtended_v1App" pc="268436177" symbol="onStop"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="9" lineNum="147" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436180" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="149" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436199" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="10" lineNum="150" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436201" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="154" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436220" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="156" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436224" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="157" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436231" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="158" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="159" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436256" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="160" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="162" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436276" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="163" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436289" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="164" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436302" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="165" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436309" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="166" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436316" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="167" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436323" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="168" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436330" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="169" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436337" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="171" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436341" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="178" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436427" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="179" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436434" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="180" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436446" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="181" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436468" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="183" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436508" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="187" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436571" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="188" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436586" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="189" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436593" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="190" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436601" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="193" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436608" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="196" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436612" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="197" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436634" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="202" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436685" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="203" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436702" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="204" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436724" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="205" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436774" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="11" lineNum="206" parent="globals/VO2MaxMeterExtended_v1GlanceView" pc="268436796" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="12" lineNum="31" parent="globals" pc="268436850" symbol="getApp"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1App.mc" id="12" lineNum="32" parent="globals" pc="268436860" symbol="getApp"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="13" lineNum="211" parent="globals/VO2MaxMeterExtended_v1View" pc="268436876" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="15" lineNum="218" parent="globals/VO2MaxMeterExtended_v1View" pc="268436895" symbol="onLayout"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="16" lineNum="213" parent="globals/VO2MaxMeterExtended_v1View" pc="268436898" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="16" lineNum="214" parent="globals/VO2MaxMeterExtended_v1View" pc="268436900" symbol="initialize"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="229" parent="globals/VO2MaxMeterExtended_v1View" pc="268436919" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="231" parent="globals/VO2MaxMeterExtended_v1View" pc="268436923" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="233" parent="globals/VO2MaxMeterExtended_v1View" pc="268436943" symbol="onUpdate"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="18" lineNum="241" parent="globals/VO2MaxMeterExtended_v1View" pc="268436956" symbol="onUpdate"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="19" lineNum="7" parent="globals/Rez" pc="268436973" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="60" parent="globals" pc="268436997" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="62" parent="globals" pc="268437009" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="63" parent="globals" pc="268437022" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="65" parent="globals" pc="268437035" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="66" parent="globals" pc="268437042" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="73" parent="globals" pc="268437128" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="74" parent="globals" pc="268437135" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="75" parent="globals" pc="268437142" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="76" parent="globals" pc="268437152" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="78" parent="globals" pc="268437162" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="79" parent="globals" pc="268437187" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="80" parent="globals" pc="268437194" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="81" parent="globals" pc="268437201" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="82" parent="globals" pc="268437220" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="83" parent="globals" pc="268437224" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="85" parent="globals" pc="268437246" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="86" parent="globals" pc="268437261" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="87" parent="globals" pc="268437271" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="88" parent="globals" pc="268437281" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="90" parent="globals" pc="268437291" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="91" parent="globals" pc="268437302" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="93" parent="globals" pc="268437314" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="94" parent="globals" pc="268437360" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="95" parent="globals" pc="268437397" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="96" parent="globals" pc="268437434" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="97" parent="globals" pc="268437471" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="99" parent="globals" pc="268437508" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="100" parent="globals" pc="268437529" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="101" parent="globals" pc="268437548" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="103" parent="globals" pc="268437564" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="104" parent="globals" pc="268437568" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="106" parent="globals" pc="268437587" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="107" parent="globals" pc="268437595" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="108" parent="globals" pc="268437599" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="111" parent="globals" pc="268437621" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="112" parent="globals" pc="268437643" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="113" parent="globals" pc="268437657" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="122" parent="globals" pc="268437751" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="123" parent="globals" pc="268437773" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="124" parent="globals" pc="268437790" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="126" parent="globals" pc="268437810" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="127" parent="globals" pc="268437832" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="128" parent="globals" pc="268437849" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="129" parent="globals" pc="268437869" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="132" parent="globals" pc="268437886" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="133" parent="globals" pc="268437908" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="134" parent="globals" pc="268437951" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="136" parent="globals" pc="268438014" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="139" parent="globals" pc="268438057" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="140" parent="globals" pc="268438069" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="141" parent="globals" pc="268438091" symbol="drawRadialBars"/>
+<entry filename="C:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\source\\VO2MaxMeterExtended-v1View.mc" id="20" lineNum="142" parent="globals" pc="268438134" symbol="drawRadialBars"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268438178" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268438190" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268438295" symbol="MainLayout"/>
+<entry filename="c:\\Users\\neera\\Documents\\GarminProjects\\VO2MaxMeterExtended-v1\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268438347" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -172,40 +200,56 @@
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435513" name="vo2max" stackId="1" startPc="268435472"/>
-<entry arg="true" endPc="268435934" name="dc" stackId="1" startPc="268435687"/>
-<entry endPc="268435933" name="vo2max" stackId="2" startPc="268435691"/>
-<entry arg="true" endPc="268436376" name="vo2max_val" stackId="1" startPc="268435935"/>
-<entry endPc="268436376" name="vo2max_level" stackId="2" startPc="268435947"/>
-<entry arg="true" endPc="268436493" name="dc" stackId="1" startPc="268436446"/>
-<entry endPc="268436492" name="vo2max" stackId="2" startPc="268436450"/>
-<entry arg="true" endPc="268437734" name="dc" stackId="1" startPc="268436518"/>
-<entry arg="true" endPc="268437734" name="vo2max_val" stackId="2" startPc="268436518"/>
-<entry endPc="268437733" name="cX" stackId="3" startPc="268436530"/>
-<entry endPc="268437733" name="cY" stackId="4" startPc="268436530"/>
-<entry endPc="268437733" name="bar_segments" stackId="5" startPc="268436530"/>
-<entry endPc="268437733" name="color_palette" stackId="6" startPc="268436530"/>
-<entry endPc="268437733" name="bar_thickness_default" stackId="7" startPc="268436530"/>
-<entry endPc="268437733" name="bar_thickness_highlighted" stackId="8" startPc="268436530"/>
-<entry endPc="268437733" name="bar_length" stackId="9" startPc="268436530"/>
-<entry endPc="268437733" name="bar_length_offset" stackId="10" startPc="268436530"/>
-<entry endPc="268437733" name="start_point" stackId="11" startPc="268436530"/>
-<entry endPc="268437733" name="bar_start_angle" stackId="12" startPc="268436530"/>
-<entry endPc="268437733" name="bar_end_angle" stackId="13" startPc="268436530"/>
-<entry endPc="268437733" name="bar_radius" stackId="14" startPc="268436530"/>
-<entry endPc="268437733" name="bar_thickness" stackId="15" startPc="268436530"/>
-<entry endPc="268437733" name="bar_spacing" stackId="16" startPc="268436530"/>
-<entry endPc="268437733" name="vo2max_level" stackId="17" startPc="268436530"/>
-<entry endPc="268437733" name="curr_level" stackId="18" startPc="268436530"/>
-<entry endPc="268437733" name="perc" stackId="19" startPc="268436530"/>
-<entry endPc="268437610" name="curr_vo2max_angle" stackId="20" startPc="268436834"/>
-<entry endPc="268437610" name="indicator_start_x" stackId="21" startPc="268436834"/>
-<entry endPc="268437610" name="indicator_start_y" stackId="22" startPc="268436834"/>
-<entry endPc="268437610" name="indicator_end_x" stackId="23" startPc="268436834"/>
-<entry endPc="268437610" name="indicator_end_y" stackId="24" startPc="268436834"/>
-<entry endPc="268437282" name="i" stackId="25" startPc="268437061"/>
-<entry arg="true" endPc="268437920" name="dc" stackId="1" startPc="268437735"/>
-<entry endPc="268437920" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437747"/>
+<entry arg="true" endPc="268435992" name="vo2max_val" stackId="1" startPc="268435460"/>
+<entry endPc="268435992" name="vo2max_level" stackId="2" startPc="268435472"/>
+<entry endPc="268436046" name="vo2max" stackId="1" startPc="268436005"/>
+<entry arg="true" endPc="268436849" name="dc" stackId="1" startPc="268436220"/>
+<entry endPc="268436848" name="vo2max" stackId="2" startPc="268436224"/>
+<entry endPc="268436848" name="vo2max_level" stackId="3" startPc="268436224"/>
+<entry endPc="268436848" name="curr_level" stackId="4" startPc="268436224"/>
+<entry endPc="268436848" name="perc" stackId="5" startPc="268436224"/>
+<entry endPc="268436848" name="curr_level_name" stackId="6" startPc="268436224"/>
+<entry endPc="268436848" name="w" stackId="7" startPc="268436224"/>
+<entry endPc="268436848" name="h" stackId="8" startPc="268436224"/>
+<entry endPc="268436848" name="segments" stackId="9" startPc="268436224"/>
+<entry endPc="268436848" name="bar_thickness_default" stackId="10" startPc="268436224"/>
+<entry endPc="268436848" name="bar_thickness_highlight" stackId="11" startPc="268436224"/>
+<entry endPc="268436848" name="bar_spacing" stackId="12" startPc="268436224"/>
+<entry endPc="268436848" name="bar_length" stackId="13" startPc="268436224"/>
+<entry endPc="268436848" name="bar_height" stackId="14" startPc="268436224"/>
+<entry endPc="268436848" name="color_palette" stackId="15" startPc="268436224"/>
+<entry endPc="268436684" name="i" stackId="16" startPc="268436586"/>
+<entry endPc="268436671" name="start_point" stackId="17" startPc="268436586"/>
+<entry arg="true" endPc="268436972" name="dc" stackId="1" startPc="268436919"/>
+<entry endPc="268436971" name="vo2max" stackId="2" startPc="268436923"/>
+<entry arg="true" endPc="268438177" name="dc" stackId="1" startPc="268436997"/>
+<entry arg="true" endPc="268438177" name="vo2max_val" stackId="2" startPc="268436997"/>
+<entry endPc="268438176" name="cX" stackId="3" startPc="268437009"/>
+<entry endPc="268438176" name="cY" stackId="4" startPc="268437009"/>
+<entry endPc="268438176" name="bar_segments" stackId="5" startPc="268437009"/>
+<entry endPc="268438176" name="color_palette" stackId="6" startPc="268437009"/>
+<entry endPc="268438176" name="bar_thickness_default" stackId="7" startPc="268437009"/>
+<entry endPc="268438176" name="bar_thickness_highlighted" stackId="8" startPc="268437009"/>
+<entry endPc="268438176" name="bar_length" stackId="9" startPc="268437009"/>
+<entry endPc="268438176" name="bar_length_offset" stackId="10" startPc="268437009"/>
+<entry endPc="268438176" name="start_point" stackId="11" startPc="268437009"/>
+<entry endPc="268438176" name="bar_start_angle" stackId="12" startPc="268437009"/>
+<entry endPc="268438176" name="bar_end_angle" stackId="13" startPc="268437009"/>
+<entry endPc="268438176" name="bar_radius" stackId="14" startPc="268437009"/>
+<entry endPc="268438176" name="bar_thickness" stackId="15" startPc="268437009"/>
+<entry endPc="268438176" name="bar_spacing" stackId="16" startPc="268437009"/>
+<entry endPc="268438176" name="vo2max_level" stackId="17" startPc="268437009"/>
+<entry endPc="268438176" name="curr_level" stackId="18" startPc="268437009"/>
+<entry endPc="268438176" name="perc" stackId="19" startPc="268437009"/>
+<entry endPc="268438176" name="curr_level_name" stackId="20" startPc="268437009"/>
+<entry endPc="268438053" name="curr_vo2max_angle" stackId="21" startPc="268437302"/>
+<entry endPc="268438053" name="indicator_start_x" stackId="22" startPc="268437302"/>
+<entry endPc="268438053" name="indicator_start_y" stackId="23" startPc="268437302"/>
+<entry endPc="268438053" name="indicator_end_x" stackId="24" startPc="268437302"/>
+<entry endPc="268438053" name="indicator_end_y" stackId="25" startPc="268437302"/>
+<entry endPc="268437750" name="i" stackId="26" startPc="268437529"/>
+<entry arg="true" endPc="268438363" name="dc" stackId="1" startPc="268438178"/>
+<entry endPc="268438363" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268438190"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -216,6 +260,7 @@
 <annotationEntry annotation="glance" class="VO2MaxMeterExtended_v1GlanceView" module="globals" symbol="initialize"/>
 <annotationEntry annotation="glance" class="VO2MaxMeterExtended_v1App" module="globals" symbol="onStop"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="glance" class="globals" module="" symbol="getVO2MaxLevel"/>
 <annotationEntry annotation="glance" class="VO2MaxMeterExtended_v1App" module="globals" symbol="getInitialView"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="getCurrentVO2Max"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
@@ -224,80 +269,80 @@
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/VO2MaxMeterExtended_v1App" offset="190" parentId="globals" symbolId="VO2MaxMeterExtended_v1App" type="class"/>
 <dataEntry label="globals/VO2MaxMeterExtended_v1GlanceView" offset="269" parentId="globals" symbolId="VO2MaxMeterExtended_v1GlanceView" type="class"/>
-<dataEntry label="globals/VO2MaxMeterExtended_v1View" offset="668" parentId="globals" symbolId="VO2MaxMeterExtended_v1View" type="class"/>
-<dataEntry label="globals/Rez" offset="747" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="826" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="873" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="912" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="943" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="974" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1013" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/VO2MaxMeterExtended_v1View" offset="742" parentId="globals" symbolId="VO2MaxMeterExtended_v1View" type="class"/>
+<dataEntry label="globals/Rez" offset="821" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="900" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="947" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="986" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1017" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1048" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1087" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" endPc="268435514" name="getCurrentVO2Max" startPc="268435460">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1App" startPc="268435515">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435536" name="onStart" parent="VO2MaxMeterExtended_v1App" startPc="268435534">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435579" name="getInitialView" parent="VO2MaxMeterExtended_v1App" startPc="268435537">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435600" name="initialize" parent="VO2MaxMeterExtended_v1App" startPc="268435580">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435643" name="getGlanceView" parent="VO2MaxMeterExtended_v1App" startPc="268435601">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435646" name="onStop" parent="VO2MaxMeterExtended_v1App" startPc="268435644">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435665" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268435647">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435686" name="initialize" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268435666">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435934" name="onUpdate" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268435687">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436376" name="getVO2MaxLevel" startPc="268435935">
+<functionEntry accessMode="public" endPc="268435992" name="getVO2MaxLevel" startPc="268435460">
 <param id="vo2max_val"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436402" name="getApp" startPc="268436377">
+<functionEntry accessMode="public" endPc="268436047" name="getCurrentVO2Max" startPc="268435993">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436421" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1View" startPc="268436403">
+<functionEntry accessMode="public" endPc="268436066" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1App" startPc="268436048">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436069" name="onStart" parent="VO2MaxMeterExtended_v1App" startPc="268436067">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436112" name="getInitialView" parent="VO2MaxMeterExtended_v1App" startPc="268436070">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436133" name="initialize" parent="VO2MaxMeterExtended_v1App" startPc="268436113">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436176" name="getGlanceView" parent="VO2MaxMeterExtended_v1App" startPc="268436134">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436179" name="onStop" parent="VO2MaxMeterExtended_v1App" startPc="268436177">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436198" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268436180">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436219" name="initialize" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268436199">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436849" name="onUpdate" parent="VO2MaxMeterExtended_v1GlanceView" startPc="268436220">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436875" name="getApp" startPc="268436850">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436894" name="&lt;init&gt;" parent="VO2MaxMeterExtended_v1View" startPc="268436876">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onShow" parent="VO2MaxMeterExtended_v1View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436424" name="onLayout" parent="VO2MaxMeterExtended_v1View" startPc="268436422">
+<functionEntry accessMode="public" endPc="268436897" name="onLayout" parent="VO2MaxMeterExtended_v1View" startPc="268436895">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436445" name="initialize" parent="VO2MaxMeterExtended_v1View" startPc="268436425">
+<functionEntry accessMode="public" endPc="268436918" name="initialize" parent="VO2MaxMeterExtended_v1View" startPc="268436898">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="VO2MaxMeterExtended_v1View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436493" name="onUpdate" parent="VO2MaxMeterExtended_v1View" startPc="268436446">
+<functionEntry accessMode="public" endPc="268436972" name="onUpdate" parent="VO2MaxMeterExtended_v1View" startPc="268436919">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436517" name="&lt;init&gt;" parent="Rez" startPc="268436494">
+<functionEntry accessMode="public" endPc="268436996" name="&lt;init&gt;" parent="Rez" startPc="268436973">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437734" name="drawRadialBars" startPc="268436518">
+<functionEntry accessMode="public" endPc="268438177" name="drawRadialBars" startPc="268436997">
 <param id="dc"/>
 <param id="vo2max_val"/>
 <documentation/>
@@ -320,7 +365,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437920" name="MainLayout" parent="Layouts" startPc="268437735">
+<functionEntry accessMode="public" endPc="268438363" name="MainLayout" parent="Layouts" startPc="268438178">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
